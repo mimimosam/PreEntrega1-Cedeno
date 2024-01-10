@@ -1,16 +1,35 @@
-div .container {
-    background: rgb(162, 162, 209);
-    width: 100%;
-    height: 100%;
+html {
+    background-color: #90a955;
 }
 
-#player {
-    border: solid rgb(89, 7, 97);
-    background: rgb(89, 7, 97);
-    position: absolute;
-    height: 20%;
-    width: 10%;
-    top: 400;
-    left: 200;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+/* Game title*/
+h1 , p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+/*Player and game items*/
+.player {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transform: translate(20em , 9em);
+}
+
+.coins {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    transform: translate(70em , 20em);
+}
+
+.player , .coins {
+    transform: rotateY('180deg') rotateZ('50deg') ;
 }
