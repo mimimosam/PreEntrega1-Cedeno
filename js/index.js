@@ -1,5 +1,5 @@
 import { Swal } from 'sweetalert2';
-//window.Swal = Swal;
+window.Swal = Swal;
 
 //Intructions pop up
 let instructionsBtn = document.querySelector ('#instructionsBtn');
