@@ -1,5 +1,5 @@
 import Swal from 'sweetalert2';
-window.Swal = require('sweetalert2');
+window.Swal = require ('sweetalert2');
 
 //Intructions pop up
 let instructionsBtn = document.querySelector ('#instructionsBtn');
