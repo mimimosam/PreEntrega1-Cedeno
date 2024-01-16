@@ -1,5 +1,5 @@
 import * as Swal from 'sweetalert2'
-import Swal from 'sweetalert2/dist/sweetalert2.js'
+import { Swal } from 'sweetalert2/dist/sweetalert2.js'
 window.Swal = Swal
 
 //Intructions pop up
