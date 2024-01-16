@@ -1,5 +1,5 @@
-import { Swal } from 'https://cdn.jsdelivr.net/npm/sweetalert2@11';
-window.Swal = Swal;
+import Swal from 'sweetalert2'
+window.Swal = Swal
 
 //Intructions pop up
 let instructionsBtn = document.querySelector ('#instructionsBtn');
