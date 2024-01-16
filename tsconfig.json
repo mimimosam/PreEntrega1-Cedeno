@@ -1,6 +1,0 @@
-{
-    "compilerOptions": {
-        "types" : []
-    },
-    "files": ["./node_modules/sweetalert2/sweetalert2.d.ts"]
-}
