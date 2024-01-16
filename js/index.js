@@ -1,4 +1,4 @@
-import Swal from '../node_modules/sweetalert2/src/sweetalert2';
+import Swal from 'https://cdn.jsdelivr.net/npm/sweetalert2@11';
 
 //Intructions pop up
 let instructionsBtn = document.querySelector ('#instructionsBtn');
